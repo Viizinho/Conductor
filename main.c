@@ -3,7 +3,7 @@
 
 // Função para reproduzir a música
 void playMusic(const char* filename) {
-    // Carregar música
+Carregar música
     SDL_AudioSpec wavSpec;
     Uint32 wavLength;
     Uint8 *wavBuffer;
@@ -37,7 +37,7 @@ void playMusic(const char* filename) {
 }
 
 int main() {
-    // Inicializar SDL
+    Inicializar SDL
     if (SDL_Init(SDL_INIT_AUDIO) < 0) {
         printf("Erro ao inicializar SDL: %s\n", SDL_GetError());
         return -1;

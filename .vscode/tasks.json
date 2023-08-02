@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-g",
+                "-o",
+                "${fileBasenameNoExtension}",
+                "${file}",
+                "-lSDL2",
+                "-lm"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
